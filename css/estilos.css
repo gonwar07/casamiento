@@ -16,7 +16,7 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: rgba(255, 255, 255, 0.84);
+    color: white;
 }
 .imgVector{
     width: 30%;
@@ -142,6 +142,7 @@ header{
 }
 .lugarCelebracion{
     padding-top: 6vw;
+    padding-bottom: 0;
     align-items: normal;
 }
 #lugarCelebracion{
