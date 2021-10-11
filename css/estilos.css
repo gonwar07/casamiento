@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Birthstone', cursive;
+}
+h2,h3,p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    line-height: 12vw;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.84);
+}
+.imgVector{
+    width: 30%;
+    align-self: center;
+    margin-bottom: 4vw;
+}
+.imgVectorDos{
+    width: 50%;
+    margin-bottom: 4vw;
+}
+.btnUbicacion, .btnInstagram, .btnDatosBancarios, .btnAsistencia{
+    width: 70vw;
+    height: 14vw;
+    align-self: center;
+    background-color: #81b06b;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    color: white;
+}
+.textoJunto{
+    line-height: 7vw;
+}
+.imgPortada{
+    width: 100%;
+    height: 70vw;
+}
+.tituloPortada{
+    font-size: 14vw;
+    font-weight: bold;
+    margin-top: -29vw;
+    text-shadow: 5px 3px 10px black;
+}
+.textoPortada{
+    font-size: 7vw;
+    text-shadow: 5px 3px 10px black;
+    margin-top: -3vw;
+}
+
+/* MAIN */
+.seccion{
+    width: 100%;
+    height: 95vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+.gris{
+    background-color: #d5d5d570;
+    padding-top: 6vw;
+}
+.doble{
+    margin-right: 0;
+}
+.asistencia, .dressCode, .instagram, .comida{
+    width: 100%;
+}
+.cuentaRegresiva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textoSerParte{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.globoContador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 100%;
+    background-color: #81b06b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.textoDias{
+    font-size: 0.9rem;
+    color: black;
+}
+.contadorDias{
+    height: 95vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+.textoContador{
+    margin-bottom: 5vw;
+}
+.textoContador h2{
+    font-family: 'Birthstone', cursive;
+    font-size: 12vw;
+}
+#contadorDias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.fecha{
+    padding-bottom: 6vw;
+}
+.cronograma{
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0;
+}
+#tituloRecepcion{
+    margin-top: 2vw;
+}
+.lugarCelebracion{
+    padding-top: 6vw;
+    align-items: normal;
+}
+#lugarCelebracion{
+    height: auto;
+}
+.lugarCelebracion h2, .dressCode h2, .instagram h2, .regalo h2, .asistencia h2, .comida h2{
+    font-weight: bold;
+}
+#direccion{
+    margin-bottom: 6vw;
+}
+#mapa{
+    height: 300px;
+    margin-top: 4vw;
+    z-index: 0;
+}
+.instagram{
+    background-image: linear-gradient(#5000ff, #ff0000a3);
+    color: white;
+}
+.btnInstagram{
+    background-color: transparent;
+    border: 3.5px solid white;
+    box-shadow: none;
+}
+.btnInstagram a{
+    color: white;
+    text-decoration: none;
+}
+.regalo p{
+    margin-bottom: 6vw;
+}
+#datosBancarios{
+    display: none;
+    position: fixed;
+    top: 12vh;
+    line-height: 0.5vw;
+    background-color: #000000d1;
+    width: 80vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    box-shadow: 2px 2px 100px black;
+    color: white;
+    z-index: 3;
+}
+#datosBancarios hr{
+    height: 2px;
+    width: 70%;
+    left: 10px;
+    margin-left: 12vw;
+    background-color: white;
+}
+#datosBancarios h3{
+    color: #81b06b;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+#datosBancarios p{
+    margin-bottom: 5vw;
+}
+#mercadoPago{
+    margin-top: 5vw;
+}
+#btnCerrar{
+    position: relative;
+    top: -6vw;
+    left: 34vw;
+    width: 8vw;
+    background-color: transparent;
+    border: none;
+}
+#btnCerrar i{
+    color: white;
+    font-size: 5.4vw;
+}
+.asistencia{
+    padding-top: 7vw;
+    padding-bottom: 6vw;
+    height: 95vw;
+}
+.asistencia p{
+    margin-bottom: 6vw;
+}
+.btnAsistencia i{
+    width: 70vw;
+    position: absolute;
+    height: 15vw;
+    left: 15vw;
+    margin-top: -1vw;
+    color: transparent;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-color: #000000d4;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer h2{
+    font-family: 'Birthstone', cursive;
+    font-size: 10vw;
+}
+@media screen and (max-width:500px) {
+    #datosBancarios{
+        top: 12vh;  
+    }
+}
+@media screen and (min-width:501px) {
+    #datosBancarios{
+        top: 1vh;  
+    }
+}
+@media screen and (min-width:800px){
+    body{
+        line-height: 5vw;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    .seccion, .contadorDias{
+        height: 50vw;
+    }
+    .btnUbicacion, .btnInstagram, .btnDatosBancarios, .btnAsistencia{
+        width: 50vw;
+        height: 10vw;
+    }
+    .textoJunto{
+        line-height: 4vw;
+    }
+    .globoContador{
+        font-size: 1.8rem;
+        height: 12vw;
+        width: 12vw;
+    }
+    #mapa{
+        height: 500px;
+    }
+    .imgVector{
+        width: 25%;
+    }
+    .textoContador{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textoContador h2{
+        font-size: 8vw;
+    }
+    .contadorDias, .lugarCelebracion, .dressCode, .instagram, .regalo, .comida{
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    .contadorDias{
+        margin-top: 14vw;
+    }
+    .lugarCelebracion{
+        margin-bottom: 0;
+    }
+    .asistencia{
+        margin-top: 0vw;
+    }
+    .btnAsistencia i {
+        width: 51vw;
+        height: 11vw;
+        left: 24vw;
+        margin-top: -3vw;
+    }
+    .instagram, .asistencia{
+        height: 70vw;
+    }
+    .instagram{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .instagram p{
+        margin-top: 3vw;
+    }
+    .btnInstagram{
+        margin-top: 8vw;
+    }
+    #banco, #mercadoPago{
+        line-height: 0.5vw;
+    }
+    #banco h3, #mercadoPago h3{
+        font-size: 1.5rem;
+        margin-bottom: 3vw;
+    }
+    #banco p, #mercadoPago p{
+        font-size: 1rem;
+        margin-bottom: 3vw;
+    }
+    #datosBancarios{
+        width: 55vw;
+        padding-top: 4vw;
+    }
+    #datosBancarios hr{
+        margin-left: 8vw;
+    }
+    #btnCerrar{
+        left: 22vw;
+        top: -2vw;
+    }
+    #btnCerrar i{
+        font-size: 3.8vw;
+    }
+    footer{
+        margin-top: 0vw;
+    }
+    footer h2{
+        font-size: 8vw;
+    }
+}
+@media screen and (min-width:962px){
+    .imgVector{
+        width: 20%;
+    }
+    #textoSerParte{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .globoContador{
+        height: 10vw;
+        width: 10vw;
+    }
+    #contadorDias{
+        margin-left: 0vw;
+    }
+    .textoContador h2, .textoContador p{
+        margin-left: 0vw;
+    }
+    .cronograma{
+        margin-top: 10vw;
+    }
+    .lugarCelebracion{
+        padding-top: 6vw;
+    }
+    .btnInstagram, .btnAsistencia{
+        width: 30vw;
+        height: 6vw;
+    }
+    .asistencia, .dressCode, .instagram, .comida{
+        width: 50%;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        height: 50vw;
+        padding-top: 0vw;
+    }
+    .asistencia img, .dressCode img, .instagram img, .comida img{
+        width: 40%;
+    }
+    .asistencia img{
+        margin-bottom: 0vw;
+        margin-top: 4vw;
+    }
+    .comida img{
+        margin-bottom: 0vw;
+    }
+    .asistencia p{
+        margin-bottom: 0vw;
+    }
+    .lugarCelebracion{
+        margin-bottom: 0vw;
+    }
+    .btnAsistencia i{
+        width: 31vw;
+        height: 6vw;
+        left: 9vw;
+        margin-top: 0vw;
+    }
+    .regalo{
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+    #datosBancarios{
+        padding-bottom: 3vw;
+        top: 1vh;
+    }
+    #datosBancarios hr{
+        margin-left: 9vw;
+    }
+    #btnCerrar {
+        left: 24vw;
+        top: -3vw;
+    }
+    #btnCerrar i{
+        font-size: 3.3vw;
+    }
+    .btnDatosBancarios{
+        width: 40vw;
+        height: 7vw;
+    }
+    .comida p{
+        margin-bottom: 0;
+    }
+    footer{
+        margin-top: 0;
+        padding-top: 7vw;
+        padding-bottom: 7vw;
+    }
+    footer h2{
+        font-size: 6vw;
+    }
+}
+@media screen and (min-width:1100px){
+    p{
+        font-size: 1.3rem;
+    }
+    .textoDias{
+        font-size: 1rem;
+    }
+    .contadorDias{
+        margin-bottom: 0vw;
+        margin-top: 12vw;
+    }
+    .globoContador{
+        font-size: 2.2rem;
+    }
+    #datosBancarios{
+        width: 40vw;
+        top: 7vh;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    #btnCerrar{
+        top: 0vw;
+        left: 17vw;
+    }
+    #btnCerrar i{
+        font-size: 2.5vw;
+    }
+    #mercadoPago {
+        margin-top: 1vw;
+    }
+    #banco, #mercadoPago {
+        line-height: 0.2vw;
+    }
+    #datosBancarios hr {
+        width: 60%;
+        margin-left: 12vw;
+    }
+    footer{
+        margin-bottom: 0vw;
+    }
+}
