@@ -2,7 +2,8 @@ function countTime() {
 
     setInterval(function(){
         let date = new Date();
-        let endDate = new Date ("2021-11-20 18:00:00"); // Establecer la fecha límite
+        // let endDate = new Date ("2021-11-20 18:00:00"); // Establecer la fecha límite
+        let endDate = Date.parse('2021-11-20 18:00:00')
         let end = endDate.getTime();
         let leftTime = end-date; // Diferencia horaria                              
         let d, h, m, s;

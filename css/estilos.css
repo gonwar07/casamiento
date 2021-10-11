@@ -186,6 +186,7 @@ header{
     box-shadow: 2px 2px 100px black;
     color: white;
     z-index: 3;
+    min-height: 50vh;
 }
 #datosBancarios hr{
     height: 2px;
@@ -256,6 +257,11 @@ footer h2{
 @media screen and (min-width:501px) {
     #datosBancarios{
         top: 1vh;  
+    }
+}
+@media screen and (max-width:500px) {
+    #datosBancarios{
+        line-height: 4.5vw;
     }
 }
 @media screen and (min-width:800px){
