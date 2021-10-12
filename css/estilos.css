@@ -254,7 +254,7 @@ footer h2{
     font-family: 'Birthstone', cursive;
     font-size: 10vw;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:350px) {
     
     .fecha h2, .ceremonia h2, .recepcion h2, .lugarCelebracion h2, .dressCode h2, .instagram h2, .regalo h2, .asistencia h2, .comida h2{
         font-size: 1.3rem;
