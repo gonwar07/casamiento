@@ -8,6 +8,9 @@ h1{
 h2,h3,p{
     font-family: 'IBM Plex Sans', sans-serif;
 }
+.textoJunto, p{
+    font-size: 1rem;
+}
 body{
     line-height: 12vw;
 }
@@ -44,15 +47,16 @@ header{
     height: 70vw;
 }
 .tituloPortada{
+    display: none;
     font-size: 14vw;
     font-weight: bold;
     margin-top: -29vw;
     text-shadow: 5px 3px 10px black;
 }
 .textoPortada{
-    font-size: 7vw;
+    font-size: 9vw;
     text-shadow: 5px 3px 10px black;
-    margin-top: -3vw;
+    margin-top: -15vw;
 }
 
 /* MAIN */
@@ -112,7 +116,7 @@ header{
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 6vw;
+    padding-top: 12vw;
     padding-bottom: 6vw;
 }
 .textoContador{
@@ -250,9 +254,21 @@ footer h2{
     font-family: 'Birthstone', cursive;
     font-size: 10vw;
 }
+@media screen and (max-width:400px) {
+    
+    .fecha h2, .ceremonia h2, .recepcion h2, .lugarCelebracion h2, .dressCode h2, .instagram h2, .regalo h2, .asistencia h2, .comida h2{
+        font-size: 1.3rem;
+    }
+    .textoJunto, p{
+        font-size: 0.8rem;
+    }
+    .lugarCelebracion h3{
+        font-size: 1.2rem;
+    }
+}
 @media screen and (max-width:500px) {
     #datosBancarios{
-        top: 12vh;  
+        top: 12vh;
     }
 }
 @media screen and (min-width:501px) {
